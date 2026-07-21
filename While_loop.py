@@ -18,7 +18,7 @@ print(f"Your age is {age}")
 food = input("Enter your favourite food: (q to quit)")
 
 while not food == "q":
-    print("f"You like {food})
+    print(f"You like {food}")
     food = input("Enter antoher one: (q to quit)")
 
 print ("C ya")
@@ -27,7 +27,7 @@ print ("C ya")
 
 num = int(input("Enter a number between 1 - 10: "))
 
-while num < 0 or > 10:
+while num < 0 or num > 10:
     print(f"{num} is not valid")
     num = int(input("Enter a number: "))
 
