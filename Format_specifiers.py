@@ -9,7 +9,17 @@
 # :+ use a plus sign to indicate positive value
 # := place sign to the left most position 
 # :  inser a space before positive numbers 
-# :, comma separator 
+# :, comma separator for the million values
 
+# Quick demostration 
+
+price1 = 3000.14159
+price2 = -9870.65
+price3 = 1200.34
+
+print(f"Price 1 is ${price1:+,.2f}")
+print(f"Price 1 is ${price2:+,.2f}")
+print(f"Price 1 is ${price3:+,.2f}")
+ 
 
  
