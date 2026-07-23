@@ -8,7 +8,7 @@
 # :^ center align 
 # :+ use a plus sign to indicate positive value
 # := place sign to the left most position 
-# :  inser a space before positive numbers 
+# :  insert a space before positive numbers 
 # :, comma separator for the million values
 
 # Quick demostration 
