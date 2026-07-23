@@ -14,7 +14,7 @@ for x in credit_card:
 
 # Printing X but skippoing the numebr 13, to skip over an iteration we can use the "continiue" keyword
 
-for x in (1, 21): 
+for x in range(1, 21): 
     if x == 13: 
         continue
     else: 
