@@ -21,20 +21,27 @@ list = ["This is", "an", "Example of", "a", "Set"]
 # fruits.clear() 
 # fruits.index("apple") This will return the index of an element 
 # fruits.count()
+# print ("Apple" in fruits)
 
 
 
 # Sets
+
 set = {"This is", "an", "Example of", "a", "Set"}
+# A set does not include any duplicates 
+# A set is unordered 
+# Use dir function to display atributes and methos of sets 
+# print ("Apple" in fruits)
+# fruits.add ("pineapple")
+# fruits.remove ("Apple")
+# fruits.pop() this will remove wharever element is first 
+# set do work well if we are working with constants, where we dont see repeated values
+ 
 
 # Tuple 
 
 tuple = ("This is", "an", "Example of", "a", "Set")
 
-
-
-
-# Pop method will remove what ever element is first but it will be random 
 
 
 
