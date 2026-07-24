@@ -13,7 +13,14 @@
 list = ["This is", "an", "Example of", "a", "Set"]
 
 # fruit[0] = pineapple 
-
+# fruits.append("pineapple") this will append a value
+# fruits.remove("apple")
+# fruits.insert(0, "pineapple")
+# fruits.sort()
+# fruits.reverse() this will reverse but not in alphabetical order
+# fruits.clear() 
+# fruits.index("apple") This will return the index of an element 
+# fruits.count()
 
 
 
