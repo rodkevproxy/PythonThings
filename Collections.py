@@ -41,7 +41,11 @@ set = {"This is", "an", "Example of", "a", "Set"}
 # Tuple 
 
 tuple = ("This is", "an", "Example of", "a", "Set")
-
+# Tuples are faster 
+# Use dir function to display atributes and methos of tuples 
+# fruits.index ("apple")
+# fruits.count ("apple")
+ 
 
 
 
