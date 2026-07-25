@@ -25,4 +25,3 @@ elif 28 > temp > 0 and not is_sunny:
 
 
 
-

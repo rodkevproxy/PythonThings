@@ -20,6 +20,8 @@ food = input("Enter your favourite food: (q to quit)")
 while not food == "q":
     print(f"You like {food}")
     food = input("Enter antoher one: (q to quit)")
+    if food == "q":
+        break
 
 print ("C ya")
 
