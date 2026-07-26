@@ -1,0 +1,2 @@
+# Excercise for collections topic 
+
