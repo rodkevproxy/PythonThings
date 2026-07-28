@@ -25,7 +25,7 @@ for question in questions:
     for option in options[question_num]: 
         print(option)
 
-    guess = input("Select (A, B, C, D)").upper()
+    guess = input("Select (A, B, C, D): ").upper()
     guesses.append(guess)
 
     if guess == answers[question_num]:
@@ -39,15 +39,21 @@ print ("--------------------------")
 print ("         RESULTS          ")
 print ("--------------------------")
 
+print("Answers: ",end=" " )
 for answer in answers: 
     print (answer, end=" ")
 print()
 
+
+print("Guesses: ", end=" ")
 for guess in guesses: 
     print(guess, end=" ")
 print()
 
+# Added this score method that prints the final score percentage 
 
-print (f"Your total score was {score}")
+score = int((score / len(questions) * 100)) #Typecaste the score varaible as an integer
+
+print (f"Your total score was {score}%")
 
 
