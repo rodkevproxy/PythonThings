@@ -14,8 +14,40 @@ options = (("A. First Module", "B. Second Module", "C. Third Module", "D. Fourth
 
 #Because i made a mistake while planning i decided to turn the quiz into a game about how much does my uni friends know about me
 
-
+answers = ("B", "C", "C", "A", "D")
 guesses = [] #This is a list because we need to append the names 
 score = 0 
 question_num = 0 
+
+for question in questions: 
+    print("---------------------------")
+    print(question)
+    for option in options[question_num]: 
+        print(option)
+
+    guess = input("Select (A, B, C, D)").upper()
+    guesses.append(guess)
+
+    if guess == answers[question_num]:
+        print("CORRECT!")
+        score += 1 
+    else: 
+        print("INCORRECT")
+        print(f"{answers[question_num]} is the correct option")
+    question_num += 1 
+print ("--------------------------")
+print ("         RESULTS          ")
+print ("--------------------------")
+
+for answer in answers: 
+    print (answer, end=" ")
+print()
+
+for guess in guesses: 
+    print(guess, end=" ")
+print()
+
+
+print (f"Your total score was {score}")
+
 
