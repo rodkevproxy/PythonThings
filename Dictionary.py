@@ -18,6 +18,9 @@ if capitals.get == ("UK"):
 else: 
     print("That capital does not exist")
 
+# Using the update method we can add a new value key 
+
+capitals.update({"Germany": "Berlin"})
 
 
 
