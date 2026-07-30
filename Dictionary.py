@@ -11,4 +11,13 @@ capitals = {"UK": "London",
 #To get one of the values from the dictionary: 
 print(capitals.get("USA"))
 
+#To check if the value exists in the dictionary, we can use an if statement 
+
+if capitals.get == ("UK"):
+    print("That capitlas exists")
+else: 
+    print("That capital does not exist")
+
+
+
 
