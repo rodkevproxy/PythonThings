@@ -26,5 +26,46 @@ capitals.update({"Germany": "Berlin"})
 
 capitals.pop("UK")
 
+#Using the variant of the pop method "popitem" we can remove the latest value of the dictionary
+
+capitals.popitem()
+
+#Using the method clear will clear the dictionary
+
+capitals.clear()
+
+# Using the method keys will return only the keys of the dictionary, in this example i will put on a variable 
+# Also, technically keys is an object meaning that it will re-assemble a list
+
+
+keys = capitals.keys()
+
+# Keys can be used in a for loop, meaning you can iterate over every key 
+
+for key in capitals.keys(): 
+    print(key)
+
+# To get all the values in the dictionary we have the values method 
+
+values = capitals.values()
+
+#We can use this with a for loop as well
+
+for value in capitals.values():
+    print(value)
+
+# The items method return a 2d tupple 
+
+items = capitals.items()
+
+for key, value in capitals.items():
+    print(f"{key}:{value}")
+
+
+
+
+
+
+
 
 
