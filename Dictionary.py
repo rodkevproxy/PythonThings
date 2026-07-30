@@ -2,7 +2,7 @@
 # They are ordered and changeable, but do not allow duplicates
 
 capitals = {"UK": "London",
-            "USA": "Washington D.C.,"
+            "USA": "Washington D.C.",
             "India": "New Delhi"}
 
 # To see all the atributes and methos of the dictionary we can write the following lines print (dir(capitals)
@@ -21,6 +21,10 @@ else:
 # Using the update method we can add a new value key 
 
 capitals.update({"Germany": "Berlin"})
+
+#Using the pop methos will remove specific values 
+
+capitals.pop("UK")
 
 
 
