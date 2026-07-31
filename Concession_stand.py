@@ -2,11 +2,11 @@
 
 # First we create a menu using a dictionary
 
-menu = {"Pizza": 6.00,
-        "Burger": 10.0,
-        "Hot-Dog": 4.99,
-        "Ice cream": 4.99,
-        "Salad": 6.99}
+menu = {"pizza": 6.00,
+        "burger": 10.0,
+        "hot-Dog": 4.99,
+        "ice cream": 4.99,
+        "salad": 6.99}
 
 cart = []
 total = 0
@@ -23,5 +23,16 @@ while True:
     elif menu.get(food) is not None: 
         cart.append(food)
 
-print(cart)
+
+print("----- YOUR ORDER -----")
+
+for food in cart: 
+    total += menu.get(food)
+    print (food, end=" ")
+
+print()
+print(f"Your total is: {total:.2f}")
+
+
+# Here i am using the method get with the dictionary 
 
