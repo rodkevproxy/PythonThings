@@ -4,16 +4,24 @@ import random
 
 # Fuction that generates a random interger 
 
-number = random.randint(1, 6)
-print (number)
+#number = random.randint(1, 6)
+#print (number)
 
 low = 6 
 high = 60 
 options = ("rock", "paper", "scissors")
+cards = ["1", "2", "3", "K", "J"]
 
-number = random.randint(low, high)
+# number = random.randint(low, high)
 
-number = random.random() #This will return a point decimal number 
+# number = random.random() #This will return a point decimal number 
 
-option = random.choice(options)
+# option = random.choice(options)
+# print(option)
 
+
+random.shuffle(cards)
+print(cards)
+
+
+ 
