@@ -37,8 +37,7 @@ while game_running:
 
     # Temporary variable to end the game 
 
-    play_again = input("Would you like to play again> (Y/N)").lower()
-    if not play_again == "y":
+    if not input("Would you like to play again> (Y/N)").lower() == "y":
         game_running = False
 
 print("Thanks for playing!")
