@@ -19,18 +19,14 @@ print(f"Computer choice was: {answer}")
 # Win conditions 
 if player == answer: 
     print("It is a tie")
-if player == "Rock" and answer == "Scissors":
+elif player == "Rock" and answer == "Scissors":
     print("You win")
-if player == "Paper" and answer == "Rock": 
+elif player == "Paper" and answer == "Rock": 
     print("You win")
-if player == "Scissors" and answer == "Paper":
+elif player == "Scissors" and answer == "Paper":
     print ("You win")
 
 # Loose conditions 
 
-if answer == "Paper" and player == "Rock":
-    print("You loose")
-if answer == "Rock" and player == "Scissors":
-    print("You loose")
-if answer == "Scissors" and player == "Paper":
+else: 
     print("You loose")
