@@ -25,3 +25,12 @@ if player == "Paper" and answer == "Rock":
     print("You win")
 if player == "Scissors" and answer == "Paper":
     print ("You win")
+
+# Loose conditions 
+
+if answer == "Paper" and player == "Rock":
+    print("You loose")
+if answer == "Rock" and player == "Scissors":
+    print("You loose")
+if answer == "Scissors" and player == "Paper":
+    print("You loose")
