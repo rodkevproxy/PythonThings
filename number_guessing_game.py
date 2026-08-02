@@ -24,6 +24,16 @@ while is_running:
         if guess < lowest_value or guess > highest_value:
              print("That guess is out of range")
              print(f"Select a number betweer {lowest_value} and {highest_value}")
+        elif guess < answer: 
+            print ("Too low, Try again")
+        elif guess > answer: 
+            print("Too high, Try again")
+        else: 
+            print(f"Correct, the number was {answer}")
+            print(f"The number of guesses was {guesses}")    
+            is_running = False        
+        
+        
        
     else: 
         print("invalid digit")
