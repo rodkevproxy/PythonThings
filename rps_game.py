@@ -5,18 +5,16 @@ import random
 options = ("Rock",
            "Paper", 
            "Scissors")
-
-player = None
-answer = random.choice(options)
-
 game_running = True 
+
+
 
 while game_running:
     player = None
     answer = random.choice(options)
 
     while player not in options:
-    player = input("Enter a choice (Rock, Paper and Scissors)")
+        player = input("Enter a choice (Rock, Paper and Scissors)")
 
     print(f"Player choice was: {player}")
     print(f"Computer choice was: {answer}")
