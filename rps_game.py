@@ -35,7 +35,7 @@ while game_running:
     else: 
         print("You loose")
 
-    # Temporary variable to end the game 
+    # Method to end the game 
 
     if not input("Would you like to play again> (Y/N)").lower() == "y":
         game_running = False
