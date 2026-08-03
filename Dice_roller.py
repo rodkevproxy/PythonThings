@@ -65,8 +65,12 @@ print (dice)
 for die in dice:
     total += die
 
-for die in range(num_of_dice): 
-    for line in dice_art.get(dice[die]):
-        print(line)
-        
+#for die in range(num_of_dice): 
+#    for line in dice_art.get(dice[die]):
+#       print(line)
+
+# Printing the dice horizontally 
+
+
+
 print(f"Total is {total}")
