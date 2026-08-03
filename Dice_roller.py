@@ -1,0 +1,1 @@
+# Get the shape of the die
