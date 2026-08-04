@@ -20,4 +20,11 @@ def invoice_funtion (name, total, item):
 invoice_funtion("Kevin", "3003", "HyperBoomm Speaker")
 
 
+# Now the Return statement = This statement is used to end a function a send the result back to the caller 
+# Quick example by doing some basic math operatons 
 
+def add(x, y):
+    z = x + y
+    return z 
+
+print(add(5,5))
