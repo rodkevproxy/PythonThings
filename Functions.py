@@ -28,3 +28,21 @@ def add(x, y):
     return z 
 
 print(add(5,5))
+
+#This function creates a full name 
+
+def full_name (first_name, last_name):
+    first_name = first_name.capitalize()
+    last_name = last_name.capitalize()
+    full_name = first_name + " " + last_name
+    return full_name
+
+
+My_name = full_name ("kevin", "rodas")
+
+print(My_name)
+
+
+
+ 
+
