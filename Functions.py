@@ -12,6 +12,12 @@ happy_birthday("Gut", 20)
 happy_birthday("And", 45)
 
 # In this case the function is giving 4 different outputs depending on the paramentes given at the very begining 
+#Fucntion to display an invoice 
+
+def invoice_funtion (name, total, item):
+    print(f"This is the invoice, Name: {name}, The total is {total}, and the item was {item}")
+
+invoice_funtion("Kevin", "3003", "HyperBoomm Speaker")
 
 
 
