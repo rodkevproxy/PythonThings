@@ -27,8 +27,17 @@ def count (star, end):
         time.sleep(1)
     print("Done!")
 
+#In order to add default arguments we need to make sure that they are after the positional arguments
 
-count(0, 10)
+def count_2 (end, start=0):
+    for x in range(start, end + 1):
+        print(x)
+        time.sleep(1)
+    print("Done!")
+
+
+count_2(30, 20)
+
 
 
 
