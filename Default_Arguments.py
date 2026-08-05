@@ -12,6 +12,12 @@ def net_price (list_price, discount, tax):
 
 print(net_price(200, 0.5, 0.05))
 
+# This function does the exact same work as the previous one, but it has default paramenters 
+
+def new_net_price(list_price, discount=0,tax=0.006):
+    return list_price * (1 - discount) * (1 + tax)
+
+
 
 
 
