@@ -21,13 +21,16 @@ def new_net_price(list_price, discount=0,tax=0.006): #This fucntion is more flex
 
 # Next example is by creating a timer using functions and a for loop 
 
-def time (star, end):
+def count (star, end):
     for x in range (star, end + 1): #Important to notice that on a for loop the second statement is exclusive, so i am adding 1 to it 
         print(x)
         time.sleep(1)
-time(0, 10)
+    print("Done!")
 
-print("Done!")
+
+count(0, 10)
+
+
 
 
 
