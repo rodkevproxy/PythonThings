@@ -12,6 +12,7 @@ def add (*args):   #This tuple also has built in methods or we can iterate over 
     return total 
 
 print(add(1, 2, 4))
+
     
 
 def display_name (*args):
@@ -19,5 +20,20 @@ def display_name (*args):
         print(arg, end=" ")
 
 display_name("Kevin", "Rodas")
+
+
+# **kwargs, this creates a class of a dictionary 
+
+def print_address (**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+
+print_address(Street="Coleridge Road", 
+              Number="11",
+              Postcode= "N43NY",
+              Flat="B1")
+
+
 
 
