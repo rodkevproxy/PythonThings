@@ -5,11 +5,12 @@
 
 # When replaciong the parameters with *args we are creating a tuple that we can work with, this is known as the unpacking operator 
 
-def add (*args):  #This tuple also has built in methods or we can iterate over it using a loop 
+def add (*args):   #This tuple also has built in methods or we can iterate over it using a loop, we can also change *args for *nums meaning numbers
+    total = 0 
     for arg in args:
         total += arg
     return total 
 
-print(add(5,5,5))
+print(add(1, 2, 4))
     
 
