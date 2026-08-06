@@ -1,0 +1,15 @@
+# Args = allows you to pass multiple non-key arguments 
+# **kwargs = allow you to pass multiple keyword0arguments 
+#   * unpacking operator 
+# 1.Positional 2. Default 3. Keyword 4. ARBITRARY 
+
+# When replaciong the parameters with *args we are creating a tuple that we can work with, this is known as the unpacking operator 
+
+def add (*args):  #This tuple also has built in methods or we can iterate over it using a loop 
+    for arg in args:
+        total += arg
+    return total 
+
+print(add(5,5,5))
+    
+
