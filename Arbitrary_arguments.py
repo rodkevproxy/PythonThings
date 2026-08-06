@@ -14,3 +14,10 @@ def add (*args):   #This tuple also has built in methods or we can iterate over 
 print(add(1, 2, 4))
     
 
+def display_name (*args):
+    for arg in args:
+        print(arg, end=" ")
+
+display_name("Kevin", "Rodas")
+
+
