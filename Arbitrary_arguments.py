@@ -37,11 +37,23 @@ print_address(Street="Coleridge Road",
 
 # Excercise about creating a shippiing lable 
 
-def shipping_lable(**kwargs):
-    pass 
+def shipping_lable(*args, **kwargs):    # Always make sure that the *args are positioned before the **kwargs
+    for arg in args:
+        print(f"{arg}", end=" ")
+
+    print()
+
+    for key, value in kwargs.items():
+        print(f"{key} : {value}")
 
 
-shipping_lable(Postcode="N43NY", 
+
+
+
+
+
+shipping_lable("Mr", "Kevin Rodas", 
+               Postcode="N43NY", 
                Street="Coleridge Road", 
                House_Number="11",
                Instructions="Leave at the outdoor", 
