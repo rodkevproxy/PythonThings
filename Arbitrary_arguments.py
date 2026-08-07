@@ -43,8 +43,11 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
 
     print()
 
-    for key, value in kwargs.items():
-        print(f"{key} : {value}")
+    # Printing the kwargs using fstrings and get method, get method must be used with single quotes 
+
+    print(f"{kwargs.get('Postcode')}")
+    print(f"{kwargs.get('Street')} {kwargs.get('House_Number')} {kwargs.get('Instructions')}")
+    
 
 
 
