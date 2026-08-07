@@ -45,7 +45,9 @@ shipping_lable(Postcode="N43NY",
                Street="Coleridge Road", 
                House_Number="11",
                Instructions="Leave at the outdoor", 
-               Flat="Basement 1")
+               Flat="Basement 1",
+               Company="DHL",
+               Special_Serive="Yes")
 
 
 
