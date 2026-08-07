@@ -35,6 +35,20 @@ print_address(Street="Coleridge Road",
               Postcode= "N43NY",
               Flat="B1")
 
+# Excercise about creating a shippiing lable 
+
+def shipping_lable(**kwargs):
+    pass 
+
+
+shipping_lable(Postcode="N43NY", 
+               Street="Coleridge Road", 
+               House_Number="11",
+               Instructions="Leave at the outdoor", 
+               Flat="Basement 1")
+
+
+
 
 
 
