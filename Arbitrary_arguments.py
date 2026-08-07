@@ -49,12 +49,6 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
     print(f"{kwargs.get('Street')} {kwargs.get('House_Number')} {kwargs.get('Instructions')}")
     
 
-
-
-
-
-
-
 shipping_lable("Mr", "Kevin Rodas", 
                Postcode="N43NY", 
                Street="Coleridge Road", 
