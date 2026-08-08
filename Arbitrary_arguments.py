@@ -50,13 +50,30 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
     
 
 shipping_lable("Mr", "Default Name",
-               Section=RailNetwork,
-               Area=Hammersmith London,
-               Is_It_IT=No,
-               Finance=No,
-               Rail_Worker=Yes,
-               Rail_Not_Worker=No,)
+               Section="RailNetwork",
+               Area="Hammersmith London",
+               Is_It_IT="No",
+               Finance="No",
+               Rail_Worker="Yes",
+               Rail_Not_Worker="No",)
 
+def shipping_lable_non_uk (*args, **kwargs):
+    for arg in args:
+        print(f"{arg}", end=" ")
+
+    print()
+
+
+    print(f"{kwargs.get('Section')} {kwargs.get('Area')}{kwargs.get('Is_It_IT')}")
+
+
+shipping_lable_non_uk("Mr", "Default Name",
+                         Section="Tbc",
+                         Area="Tbc",
+                         Is_It_IT="No",
+                         Finance="No",
+                         Rail_Worker="Yes",
+                         Rail_Not_Worker="No",)
 
 
 
