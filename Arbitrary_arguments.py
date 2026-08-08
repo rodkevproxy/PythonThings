@@ -76,12 +76,11 @@ shipping_lable_non_uk("Mr", "Default Name",
                          Rail_Not_Worker="No",)
 
 
-address_south_america ("Co", "Default City",
+address_south_america("Co", "Default City",
                            City="Default",
                            Company="Default_Preseted by the client",
                            Status="To Be Confirmed",
-                           Type="Depending on the sender letter"
-                           )
+                           Type="Depending on the sender letter",)
 
 def address_south_america(*args, **kwargs):
     for arg in args: 
@@ -91,6 +90,19 @@ def address_south_america(*args, **kwargs):
         print(f"{kwargs.get('Company')} : {kwargs.get('Status')} : {kwargs.get('City')} : {kwargs.get('Type')}")
 
 
+friends_names_uk("Mr", "Miss", "And everyting else ",
+                 FirstOne="Jossua",
+                 SecondOne="Not Jossua",
+                 ThirdOne="Jefrey",
+                 FourthOne="Ali",
+                 FifthOne="Does Not Exist Yet")
+
+def friends_names_uk (*args, **kwarg):
+    for arg in args:
+        print(arg, end=" ")
+        print()
+
+        print(f"{kwarg.get('FirstOne')}")
 
 
 
