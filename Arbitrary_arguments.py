@@ -76,6 +76,15 @@ shipping_lable_non_uk("Mr", "Default Name",
                          Rail_Not_Worker="No",)
 
 
+def address_south_america ("Co", "Default City",
+                           City="Default",
+                           Company="Default_Preseted by the client",
+                           Status="To Be Confirmed",
+                           Type="Depending on the sender letter"
+                    
+                           )
+
+
 
 
 
