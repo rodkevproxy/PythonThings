@@ -50,12 +50,12 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
     
 
 shipping_lable("Mr", "Default Name",
-               Section=,
-               Area=,
-               Is_It_IT=,
-               Finance=,
-               Rail_Worker=,
-               Rail_Not_Worker=)
+               Section=RailNetwork,
+               Area=Hammersmith London,
+               Is_It_IT=No,
+               Finance=No,
+               Rail_Worker=Yes,
+               Rail_Not_Worker=No,)
 
 
 
