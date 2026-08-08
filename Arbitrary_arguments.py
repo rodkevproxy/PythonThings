@@ -76,13 +76,19 @@ shipping_lable_non_uk("Mr", "Default Name",
                          Rail_Not_Worker="No",)
 
 
-def address_south_america ("Co", "Default City",
+address_south_america ("Co", "Default City",
                            City="Default",
                            Company="Default_Preseted by the client",
                            Status="To Be Confirmed",
                            Type="Depending on the sender letter"
-                    
                            )
+
+def address_south_america(*args, **kwargs):
+    for arg in args: 
+        print(f"{arg}", end=" ")
+        print()
+
+        print(f"{kwargs.get('Company')} : {kwargs.get('Status')} : {kwargs.get('City')} : {kwargs.get('Type')}")
 
 
 
