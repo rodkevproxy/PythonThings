@@ -14,7 +14,7 @@ hello("hello ", "mr ", "kevin ", "rodas ") #This is a conventional way where if 
 def hello_keyword(greeting, title, first, last):
     print(f"{greeting}{title}{first}{last}")
 
-hello_keyword(title="mr ", first="kevin ", last="rodas ", greeting="hello ") #Here the output will remain the same, even when the order of the argumnets is different from the order of the function paramenters
+hello_keyword(title="mr ", first="kevin ", last="Rodas ", greeting="hello ") #Here the output will remain the same, even when the order of the argumnets is different from the order of the function paramenters
 
 #Function to get a phone number 
 

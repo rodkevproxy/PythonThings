@@ -29,11 +29,11 @@ def print_address (**kwargs):
         print(f"{key}: {value}")
 
 
-print_address(Street="Coleridge Road",
-              Borough="Islington", 
-              Number="11",
-              Postcode= "N43NY",
-              Flat="B1")
+print_address(Street="TBC",
+              Borough="TBC", 
+              Number="TBC",
+              Postcode= "TBC",
+              Flat="TBC")
 
 # Excercise about creating a shippiing lable 
 
@@ -49,14 +49,13 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
     print(f"{kwargs.get('Street')} {kwargs.get('House_Number')} {kwargs.get('Instructions')}")
     
 
-shipping_lable("Mr", "Kevin Rodas", 
-               Postcode="N43NY", 
-               Street="Coleridge Road", 
-               House_Number="11",
-               Instructions="Leave at the outdoor", 
-               Flat="Basement 1",
-               Company="DHL",
-               Special_Serive="Yes")
+shipping_lable("Mr", "Default Name",
+               Section=,
+               Area=,
+               Is_It_IT=,
+               Finance=,
+               Rail_Worker=,
+               Rail_Not_Worker=)
 
 
 
