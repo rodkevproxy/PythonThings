@@ -5,5 +5,26 @@
 numbers = [1, 2, 3, 4, 5]
 
 for num in reversed(numbers): 
-    print(num)
+    print(num, end="-")
+
+print()
+
+fruits_tupple = ("Mango", "Fresa", "Banana", "Cocos", "Guanabana")
+
+for fruit in fruits_tupple:
+    print(fruit, end=" ")
+
+print()
+
+fruits = "Mango"
+
+for letter in fruits:
+    print(letter, end=" ")
+
+
+
+
+
+
+
 
