@@ -61,6 +61,13 @@ else:
     print(f"{student_dictionary} was not found")
 
     
+# The next example shows how can we check if an email is valid 
 
+email = input("Enter your email: ")
+
+if "@" in email and "." in email:
+    print(f"{email} IS VALID")
+else:
+    (f"The email is not valid")
 
  
