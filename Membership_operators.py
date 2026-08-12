@@ -28,8 +28,19 @@ else:
     print(f"{letter_2} is in the word")
 
 
+#Another example 
+
+students = {"Jossuas",
+            "Kevin",
+            "Jordy"}
+
+student = input("Enter the name of the student: ")
 
 
+if student is not students: 
+    print(f"{student} was not found in {students}")
+else:
+    print(f"{student} was found in {students}")
 
 
  
