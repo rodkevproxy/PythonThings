@@ -8,9 +8,28 @@ word = "apple"
 
 letter = input("Guess a letter in the secret word: ")
 
+#This membership operator will test if a value is within a sequence 
 if letter in word: 
     print(f"There is a {letter}")
 else:
     print(f"{letter} was not found")
 
 
+
+#This membership operator will test if a value is NOT within a sequence 
+
+word_2 = "Kevin"
+
+letter_2 = input("Enter another one")
+
+if letter_2 not in word_2: 
+    print(f"{letter_2} is not in the secret word")
+else: 
+    print(f"{letter_2} is in the word")
+
+
+
+
+
+
+ 
