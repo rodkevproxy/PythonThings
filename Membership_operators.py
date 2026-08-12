@@ -20,7 +20,7 @@ else:
 
 word_2 = "Kevin"
 
-letter_2 = input("Enter another one")
+letter_2 = input("Enter another one: ")
 
 if letter_2 not in word_2: 
     print(f"{letter_2} is not in the secret word")
@@ -30,17 +30,17 @@ else:
 
 #Another example 
 
-students = {"Jossuas",
+students = {"Jossua",
             "Kevin",
             "Jordy"}
 
 student = input("Enter the name of the student: ")
 
 
-if student is not students: 
-    print(f"{student} was not found in {students}")
+if student not in students: 
+    print(f"{student} was not found ")
 else:
-    print(f"{student} was found in {students}")
+    print(f"{student} was found")
 
 
  
