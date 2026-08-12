@@ -53,9 +53,14 @@ students_dictionary = {"Jossua" : A,
 
 
 
-students_dictionary = input("Enter the name of a student: ")
+student_dictionary = input("Enter the name of a student: ")
 
+if student_dictionary in students_dictionary:
+    print(f"{student_dictionary} grade is {students_dictionary[student_dictionary]}")
+else: 
+    print(f"{student_dictionary} was not found")
 
+    
 
 
  
