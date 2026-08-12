@@ -46,10 +46,10 @@ else:
 #Here is another example usign a dictionary
 
 
-students_dictionary = {"Jossua" : A,
-            "Kevin" : B,
-            "Jordy" : C,
-            "Alison" : D}
+students_dictionary = {"Jossua" : "A",
+            "Kevin" : "B",
+            "Jordy" : "C",
+            "Alison" : "D"}
 
 
 
