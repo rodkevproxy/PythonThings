@@ -44,7 +44,15 @@ print(negative_num)
 
 #Check if a number is even or odd, in this case this will only retun even numbers 
 
-even_numbers = [num for num in numbers if num % 2 ==0]
+even_numbers = [num for num in numbers if num % 2 == 0]
 print (even_numbers)
+
+# This one checks for odd numbers 
+
+
+odd_numbers = [num for num in numbers if num % 2 == 1]
+print (odd_numbers)
+
+
 
 
