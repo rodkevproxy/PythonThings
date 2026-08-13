@@ -42,4 +42,9 @@ print(positive_num)
 negative_num = [num for num in numbers if num <= 0] #This will return only the positive numbers 
 print(negative_num)
 
+#Check if a number is even or odd, in this case this will only retun even numbers 
+
+even_numbers = [num for num in numbers if num % 2 ==0]
+print (even_numbers)
+
 
