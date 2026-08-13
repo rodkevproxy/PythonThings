@@ -31,5 +31,14 @@ fruits_2 = ["apple", "banana", "coconut"]
 fruit_2 =[fruit[0] for fruit in fruits_2]
 print (fruit_2)
 
+#Now conditions 
+
+
+numbers = [1, -2, 3, -4, 5, -6]
+
+positive_num = [num for num in numbers if num >= 0] #This will return only the positive numbers 
+print(positive_num)
+
+
 
 
