@@ -39,6 +39,7 @@ numbers = [1, -2, 3, -4, 5, -6]
 positive_num = [num for num in numbers if num >= 0] #This will return only the positive numbers 
 print(positive_num)
 
-
+negative_num = [num for num in numbers if num <= 0] #This will return only the positive numbers 
+print(negative_num)
 
 
