@@ -39,6 +39,8 @@ def weekend_day(w_day):
         case _: 
             return False 
 
+print(weekend_day("Sunday"))
+
 
 
 
