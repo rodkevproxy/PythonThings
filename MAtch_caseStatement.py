@@ -23,5 +23,22 @@ def day_of_week(day):
             return "Invalid input"
 
 
-print (day_of_week(3))
+print (day_of_week("Pizza"))
+
+# Alternative to many if-else statements 
+# These cam be modified to avoid too many lines of code 
+
+
+
+def weekend_day(w_day): 
+    match w_day: 
+        case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+            return False
+        case "Sunday" | "Saturday":
+            return True 
+        case _: 
+            return False 
+
+
+
 
