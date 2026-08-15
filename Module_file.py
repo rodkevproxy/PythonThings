@@ -13,6 +13,8 @@ def circumference(radius):
 def area (radius): 
     return pi * radius ** 2 
 
+# This is an example of how to create a module than can be used on an external file 
+
 
 
 
