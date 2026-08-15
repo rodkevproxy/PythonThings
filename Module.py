@@ -24,6 +24,11 @@ a, b, c, d = 1, 2, 3, 4
 print(math.e ** a)
 
 
+import Module_file
+
+result = Module_file.square(2)   #This is how we use an external module created by us 
+
+
 
 
 
