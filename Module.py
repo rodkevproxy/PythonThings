@@ -28,7 +28,7 @@ import Module_file
 
 result = Module_file.square(2)   #This is how we use an external module created by us 
 result = Module_file.circumference(3)
-
+result = Module_file.area(9)
 
 
 
