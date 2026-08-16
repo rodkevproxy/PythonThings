@@ -38,6 +38,8 @@ from math import e
 e = 10
 def func3():
     print (e)
+func3()
+
 
 
 
