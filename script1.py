@@ -15,7 +15,7 @@ def fav_food(food):
     
 
 
-if __name__ == '__manin__':
+if __name__ == '__main__':
     main()
 
 
