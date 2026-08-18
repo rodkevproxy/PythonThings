@@ -22,12 +22,12 @@ while is_running:
     print("3.Withdraw")
     print("4.Exit")
 
-    choice = input("Please select an option (1-4)")
+    choice = input("Please select an option (1-4): ")
 
     if choice == "1":
         show_balance()
     elif choice == "2":
-        balance += deposit
+        balance += deposit()
     elif choice == "3":
         withdraw()
     elif choice == "4":
