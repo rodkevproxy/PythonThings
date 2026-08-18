@@ -24,7 +24,22 @@ while is_running:
 
     choice = input("Please select an option (1-4)")
 
-    if option == "1":
+    if choice == "1":
+        show_balance()
+    elif choice == "2":
+        deposite()
+    elif choice == "3":
+        withdraw()
+    elif choice == "4":
+        is_running = False 
+
+    else: 
+        print("That is not a valid option")
+
+
+    
+
+
 
 
 
