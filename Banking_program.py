@@ -1,8 +1,11 @@
 def show_balance():
-    pass 
+    print(f"Your balance is {balance:.2f}")
 
 def deposite():
-    pass
+    amount = float(input("Enter the amount to be deposited: "))
+    if amount < 0: 
+        return 0 
+        print("That is not a valid amount")
 
 def withdraw():
     pass
