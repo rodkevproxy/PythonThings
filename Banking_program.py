@@ -6,6 +6,8 @@ def deposite():
     if amount < 0: 
         return 0 
         print("That is not a valid amount")
+    else: 
+        return amount
 
 def withdraw():
     pass
