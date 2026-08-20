@@ -22,7 +22,7 @@ def pay_out():
     pass 
 
 def main():
-    balance: 100 
+    balance = 100 
     print("**************************")
     print("Welcome to Python Slots ")
     print("Symbols: 🍒, ⭐, 🔔, 🃏")
