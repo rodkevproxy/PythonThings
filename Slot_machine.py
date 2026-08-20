@@ -47,7 +47,7 @@ def main():
         row = spin_row() #This spin function is a list 
         print("Spinning...")
         
-        time.sleep(3)
+        time.sleep(10)
 
         print_row(row)       
 
