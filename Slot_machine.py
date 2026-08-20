@@ -32,12 +32,13 @@ def main():
     while balance > 0: 
         print(f"Current balance £{balance}")
 
-        bet = (input("Place your bet amount: "))
-        bet = int(bet) #Here bet has to be typecasted apart due to the isdigit fucntion
+        bet = input("Place your bet amount: ")
 
         if not bet.isdigit():   #Useful line of code when we want to check if am imput is a digit
             print("That is not a valid input")
             continue
+
+        bet = int(bet) #Here bet has to be typecasted apart due to the isdigit fucntion
 
         if bet > balance: 
             print("Insuficient founds")
@@ -50,7 +51,7 @@ def main():
         balance -= bet
 
         row = spin_row() #This spin function is a list 
-
+        print(row)        
 
 
         
