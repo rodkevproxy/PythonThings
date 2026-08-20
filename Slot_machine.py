@@ -12,8 +12,20 @@ def spin_row():
 def print_row(row): 
     print(" | ".join(row)) #Built in method 
 
-def pay_out():
-    pass 
+def pay_out(row, bet):
+    if row [0] == row [1] == row[2]:
+        if row[0] == "🍒":
+            return bet * 2 
+        elif row[0] == "⭐":
+            return bet * 2.5
+        elif row[0] == "🔔":
+            return bet * 3
+        elif row [0] == "🃏":
+            return bet * 3
+
+
+
+     
 
 def main():
     balance = 100 
@@ -46,12 +58,14 @@ def main():
 
         row = spin_row() #This spin function is a list 
         print("Spinning...")
-        
-        time.sleep(10)
-        time.sleep(5)
-        time.sleep(2)
 
-        print_row(row)       
+        time.sleep(3)
+
+        print_row(row)
+
+        payout = pay_out(row, bet)
+
+
 
 
         
