@@ -5,6 +5,16 @@ import random
 def spin_row(): 
     symbols = ["🍒", "⭐", "🔔", "🃏"]
 
+    return [random.choice(symbols) for _ in range(3)] #This is the way to do a list coprenhension inside a function
+                                                           #Here we do not create an extra list to store the values, we return the values directly, what most people do is to use a "_" as a place holder 
+    
+
+
+
+
+
+
+
 def print_row(): 
     pass
 
