@@ -1,6 +1,7 @@
 # Beginners guide to create a slot machine 
 
 import random
+import time
 
 def spin_row(): 
     symbols = ["🍒", "⭐", "🔔", "🃏"]
@@ -8,15 +9,8 @@ def spin_row():
     return [random.choice(symbols) for _ in range(3)] #This is the way to do a list coprenhension inside a function
                                                            #Here we do not create an extra list to store the values, we return the values directly, what most people do is to use a "_" as a place holder 
     
-
-
-
-
-
-
-
-def print_row(): 
-    pass
+def print_row(row): 
+    print(" | ".join(row)) #Built in method 
 
 def pay_out():
     pass 
@@ -38,7 +32,7 @@ def main():
             print("That is not a valid input")
             continue
 
-        bet = int(bet) #Here bet has to be typecasted apart due to the isdigit fucntion
+        bet = int(bet) #Here bet has to be typecasted apart due to the isdigit fucntion, and has to be palced after the isdigit check 
 
         if bet > balance: 
             print("Insuficient founds")
@@ -51,7 +45,9 @@ def main():
         balance -= bet
 
         row = spin_row() #This spin function is a list 
-        print(row)        
+        print("Spinning...")
+        time.sleep(3)
+        print_row(row)       
 
 
         
