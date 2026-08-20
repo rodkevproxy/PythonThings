@@ -32,7 +32,8 @@ def main():
     while balance > 0: 
         print(f"Current balance £{balance}")
 
-        bet = int(input("Place your bet amount: "))
+        bet = (input("Place your bet amount: "))
+        bet = int(bet) #Here bet has to be typecasted apart due to the isdigit fucntion
 
         if not bet.isdigit():   #Useful line of code when we want to check if am imput is a digit
             print("That is not a valid input")
