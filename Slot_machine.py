@@ -1,7 +1,9 @@
 # Beginners guide to create a slot machine 
 
+import random
+
 def spin_row(): 
-    pass 
+    symbols = ["🍒", "⭐", "🔔", "🃏"]
 
 def print_row(): 
     pass
@@ -20,11 +22,27 @@ def main():
     while balance > 0: 
         print(f"Current balance £{balance}")
 
-        bet = float(input("Place your bet amount: "))
+        bet = int(input("Place your bet amount: "))
 
         if not bet.isdigit():   #Useful line of code when we want to check if am imput is a digit
             print("That is not a valid input")
+            continue
 
+        if bet > balance: 
+            print("Insuficient founds")
+            continue
+
+        if bet <= 0: 
+            print("Bet must be greater than 0")
+            continue
+
+        balance -= bet
+
+        row = spin_row() #This spin function is a list 
+
+
+
+        
 
 if __name__ == '__main__':
     main()
