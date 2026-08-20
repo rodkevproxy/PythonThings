@@ -11,8 +11,17 @@ def pay_out():
 
 def main():
     balance: 100 
-
+    print("**************************")
     print("Welcome to Python Slots ")
+    print("Symbols: 🍒, ⭐, 🔔, 🃏")
+    print("**************************")
+
+
+    while balance > 0: 
+        print(f"Current balance £{balance}")
+
+        bet = float(input("Place your bet amount: "))
+
 
 if __name__ == '__main__':
     main()
