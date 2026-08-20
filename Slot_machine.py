@@ -22,6 +22,9 @@ def main():
 
         bet = float(input("Place your bet amount: "))
 
+        if not bet.isdigit():   #Useful line of code when we want to check if am imput is a digit
+            print("That is not a valid input")
+
 
 if __name__ == '__main__':
     main()
