@@ -48,6 +48,7 @@ def main():
         print("Spinning...")
         
         time.sleep(10)
+        time.sleep(5)
 
         print_row(row)       
 
