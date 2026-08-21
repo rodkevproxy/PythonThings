@@ -22,7 +22,6 @@ def pay_out(row, bet):
             return bet * 3
         elif row [0] == "🃏":
             return bet * 3
-
     return 0
 
 
@@ -62,11 +61,18 @@ def main():
         row = spin_row() #This spin function is a list 
         print("Spinning...")
 
-        time.sleep(3)
+        time.sleep(1)
 
         print_row(row)
 
         payout = pay_out(row, bet)
+
+        if payout > 0: 
+            print(f"Congrats you won £{payout} ")
+        else:
+            ("Sorry you lost this round")
+
+        balance += payout
 
 
 
