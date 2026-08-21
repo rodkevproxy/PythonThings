@@ -70,7 +70,7 @@ def main():
         if payout > 0: 
             print(f"Congrats you won £{payout} ")
         else:
-            ("Sorry you lost this round")
+            print("Sorry you lost this round")
 
         balance += payout
 
