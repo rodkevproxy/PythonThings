@@ -23,6 +23,9 @@ def pay_out(row, bet):
         elif row [0] == "🃏":
             return bet * 3
 
+    return 0
+
+
 
 
      
