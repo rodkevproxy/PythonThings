@@ -6,7 +6,7 @@ chars = " " + string.punctuation + string.digits + string.ascii_letters #Here in
 
 chars = list(chars) #Here all the characters are a single string, insteadd of a single big one
 print(chars)
-key = chars.copy
+key = chars.copy()
 
 print(key)
 
