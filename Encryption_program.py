@@ -9,6 +9,9 @@ print(chars)
 key = chars.copy()
 
 print(key)
+print(f"Chars: {chars}")
+
+
 
 
 
