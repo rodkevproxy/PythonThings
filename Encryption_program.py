@@ -25,6 +25,20 @@ for letter in plain_text:
 print(f"Original message: {plain_text}")
 print(f"Encrypted message: {chiper_text}")
 
+#DECRYPTION
+
+
+chiper_text = input("Enter a message to Decrypt ")
+plain_text = " " #This is the name of the normal text
+
+for letter in chiper_text: 
+    index = key.index(letter)
+    plain_text += chars[index]
+
+print(f"Encrypted message: {chiper_text}")
+print(f"Original message: {plain_text}")
+
+
 
 
 
