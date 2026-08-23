@@ -7,8 +7,6 @@ chars = " " + string.punctuation + string.digits + string.ascii_letters #Here in
 chars = list(chars) #Here all the characters are a single string, insteadd of a single big one
 key = chars.copy()
 
-print(key)
-
 random.shuffle(key)
 
 
