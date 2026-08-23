@@ -14,6 +14,20 @@ print(f"Chars: {chars}")
 print()
 print(f"Key: {key}")
 
+#ENCRYPT
+plain_text = input("Enter a message to encrypt ")
+chiper_text = " " #This is the name of the encrypted message 
+
+for letter in plain_text: 
+    index = chars.index(letter)
+    chiper_text += key[letter]
+
+print(f"Original message: {plain_text}")
+print(f"Encrypted message: {chiper_text}")
+
+
+
+
 
 
 
