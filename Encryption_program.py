@@ -20,7 +20,7 @@ chiper_text = " " #This is the name of the encrypted message
 
 for letter in plain_text: 
     index = chars.index(letter)
-    chiper_text += key[letter]
+    chiper_text += key[index]
 
 print(f"Original message: {plain_text}")
 print(f"Encrypted message: {chiper_text}")
