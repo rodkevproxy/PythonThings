@@ -7,7 +7,15 @@ words = ("Apple", "Banana", "Coconut", "Kiwi", "Mango", "Strawberry", "Cherry")
 #Once we reac 6 incorrected guesses we loose the game 
 #Dicionary of key():
 #ASCII art
-hangman_art = {0:(), 1:(), 2:(), 3:(), 4:(), 5:(), }
+hangman_art = {0:(), 
+               1:(), 
+               2:(), 
+               3:(), 
+               4:(), 
+               5:(), 
+               6:()}
+
+
 
 
 
