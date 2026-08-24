@@ -1,3 +1,6 @@
-words = ("Apple", "Banana", "Coconut", ("Kiwi", "Mango"))
+words = ("Apple", "Banana", "Coconut", "Kiwi", "Mango", "Strawberry", "Cherry")
+
+
+
 
 
