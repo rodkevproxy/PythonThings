@@ -40,11 +40,16 @@ def display_answer(answer):
     pass
 
 def main():
-    pass
+    answer = random.choice(words)
+    hint = ["_"] * len(answer)
+    wrong_guesses = 0 
+    guessed_letters = set()  #To create an empty set it has to be done in this way     
+    is_running = True
 
-
+   
 if __name__ == '__main__':
     main()
+
 
 
 
