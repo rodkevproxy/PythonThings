@@ -58,7 +58,7 @@ def main():
         guess = input("Enter a letter: ").lower()#
 
         #Input validation 
-        if len(guess) != 1 or not guess.alpha(): 
+        if len(guess) != 1 or not guess.isalpha(): 
             print("Invalid Inpuit")
             continue
 
