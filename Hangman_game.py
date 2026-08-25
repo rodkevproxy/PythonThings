@@ -62,6 +62,13 @@ def main():
             print("Invalid Inpuit")
             continue
 
+        if guess in guessed_letters: 
+            print(f"{guess} is already guessed")
+            continue
+
+         guessed_letters.add(guess)
+        
+
         #Now here i added the for loop that will find if there is a match and replace it 
         if guess in answer: 
             for i in range(len(answer)):
