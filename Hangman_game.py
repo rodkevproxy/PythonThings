@@ -66,8 +66,9 @@ def main():
             print(f"{guess} is already guessed")
             continue
 
-         guessed_letters.add(guess)
-        
+        guessed_letters.add(guess)
+
+
 
         #Now here i added the for loop that will find if there is a match and replace it 
         if guess in answer: 
