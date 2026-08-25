@@ -84,30 +84,16 @@ def main():
              print("Congrats")
              display_man(wrong_guesses)
              display_answer(answer)
-         elif wrong_guesses == 7: 
+         elif wrong_guesses == 6: 
+             is_running = False
              print("You Lost")
              display_man(wrong_guesses)
              time.sleep(2)
              print("The correct answer was...")
-             time.sleep(3)
+             time.sleep(2)
              display_answer(answer)
              
-             
-
-         
-
-
-            
-   
-
-            
-
-        
-
-
-                
-
-   
+               
 if __name__ == '__main__':
     main()
 
