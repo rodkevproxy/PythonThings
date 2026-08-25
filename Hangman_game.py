@@ -31,8 +31,10 @@ hangman_art = {0:("     ",
 
 
 def display_man (wrong_guesses): 
-    pass 
-
+    print("***************")
+    for line in hangman_art[wrong_guesses]:
+        print(line)
+    print("***************")
 def display_hint (hint):
     pass
 
@@ -42,9 +44,17 @@ def display_answer(answer):
 def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
-    wrong_guesses = 0 
+    wrong_guesses = 6 
     guessed_letters = set()  #To create an empty set it has to be done in this way     
     is_running = True
+
+    while is_running:
+        display_man(wrong_guesses)
+        display_hint(hint)
+        guess = input("Enter a letter").lower()
+
+
+        
 
    
 if __name__ == '__main__':
