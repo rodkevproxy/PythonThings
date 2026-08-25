@@ -77,7 +77,13 @@ def main():
                     hint[i] = guess 
         else:
          wrong_guesses += 1 
-         
+
+         if "_" not in hint: 
+             is_running = False
+             print("Congrats")
+             display_man(wrong_guesses)
+             display_answer(answer)
+
             
 
         
