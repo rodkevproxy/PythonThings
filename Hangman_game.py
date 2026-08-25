@@ -84,7 +84,7 @@ def main():
              print("Congrats")
              display_man(wrong_guesses)
              display_answer(answer)
-         elif wrong_guesses == 6: 
+         elif wrong_guesses >= len(hangman_art) - 1: 
              is_running = False
              print("You Lost")
              display_man(wrong_guesses)
