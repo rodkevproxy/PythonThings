@@ -35,12 +35,15 @@ def display_man (wrong_guesses):
     for line in hangman_art[wrong_guesses]:
         print(line)
     print("***************")
+
+
 def display_hint (hint):
     print(" ".join(hint))
     
 
+
 def display_answer(answer): 
-    pass
+     print(" ".join(answer))
 
 def main():
     answer = random.choice(words)
@@ -54,8 +57,17 @@ def main():
         display_hint(hint)
         guess = input("Enter a letter").lower()
 
+        #Now here i added the for loop that will find if there is a match and replace it 
+
+        if guess in answer: 
+            for i in range(len(answer)):
+                if answer[i] == guess:
+                    hint[i] = guess 
 
         
+
+
+                
 
    
 if __name__ == '__main__':
