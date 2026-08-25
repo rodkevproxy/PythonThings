@@ -75,6 +75,10 @@ def main():
             for i in range(len(answer)):
                 if answer[i] == guess:
                     hint[i] = guess 
+        else:
+         wrong_guesses += 1 
+         
+            
 
         
 
