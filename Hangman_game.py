@@ -55,10 +55,14 @@ def main():
     while is_running:
         display_man(wrong_guesses)
         display_hint(hint)
-        guess = input("Enter a letter").lower()
+        guess = input("Enter a letter: ").lower()#
+
+        #Input validation 
+        if len(guess) != 1: 
+            print("Invalid Inpuit")
+            continue
 
         #Now here i added the for loop that will find if there is a match and replace it 
-
         if guess in answer: 
             for i in range(len(answer)):
                 if answer[i] == guess:
