@@ -1,4 +1,5 @@
 import random
+import time
 
 words = ("Apple", "Banana", "Coconut", "Kiwi", "Mango", "Strawberry", "Cherry")
 
@@ -83,6 +84,21 @@ def main():
              print("Congrats")
              display_man(wrong_guesses)
              display_answer(answer)
+         elif wrong_guesses == 7: 
+             print("You Lost")
+             display_man(wrong_guesses)
+             time.sleep(2)
+             print("The correct answer was...")
+             time.sleep(3)
+             display_answer(answer)
+             
+             
+
+         
+
+
+            
+   
 
             
 
