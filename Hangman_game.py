@@ -36,7 +36,8 @@ def display_man (wrong_guesses):
         print(line)
     print("***************")
 def display_hint (hint):
-    pass
+    print(" ".join(hint))
+    
 
 def display_answer(answer): 
     pass
@@ -44,7 +45,7 @@ def display_answer(answer):
 def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
-    wrong_guesses = 6 
+    wrong_guesses = 0 
     guessed_letters = set()  #To create an empty set it has to be done in this way     
     is_running = True
 
