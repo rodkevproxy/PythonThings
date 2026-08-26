@@ -1,5 +1,6 @@
 import random
 import time
+from Wordlist import words
 
 words = ("Apple", "Banana", "Coconut", "Kiwi", "Mango", "Strawberry", "Cherry")
 
