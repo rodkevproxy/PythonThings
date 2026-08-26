@@ -23,6 +23,7 @@ print(car1.model, car1.year) # This dot is known as the attribute access operato
 car2 = Car("GT3", 2027, "Black", True)
 
 print(car2.model, car1.model)
+print(car1.for_sale)
 
 
 
