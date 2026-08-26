@@ -4,12 +4,6 @@
 
 # Class = (blueprint) used to desing the structure and layout of an object 
 
-class Car: 
-    def __init__(self, model, year, colour, for_sale): #This is the constructor method, this is required in order to construct objects 
-        self.model = model 
-        self.year = year
-        self.colour = colour 
-        self.for_sale = for_sale 
 
 car1 = Car("Mustang", 2024, "Red", False)
 
