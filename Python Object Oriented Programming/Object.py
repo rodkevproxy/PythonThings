@@ -4,6 +4,8 @@
 
 # Class = (blueprint) used to desing the structure and layout of an object 
 
+from carClass import Car 
+
 
 car1 = Car("Mustang", 2024, "Red", False)
 
