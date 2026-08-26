@@ -9,8 +9,8 @@ class Car:
 
     #Methods are actions that our class can perform
     def drive(self):
-        print("You drive the car ")
+        print(f"You drive the car {self.model}") #Self here is being used to be refered to the object that we are working with 
 
     def stop(self):
-        print("You can stop the car")
+        print(f"You can stop the car {self.model}") 
 

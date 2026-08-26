@@ -21,5 +21,11 @@ car2 = Car("GT3", 2027, "Black", True)
 print(car2.model, car1.model)
 print(car1.for_sale)
 
+car1.drive()
+car2.stop()
+
+
+
+
 
 
