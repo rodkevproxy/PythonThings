@@ -20,7 +20,7 @@ student1 = Student("Spongebob", 30)
 student2 = Student("Bob", 19)
 #To make sure that the counter is working, i will add a third student 
 student3 = Student("Kev", 21)
-student4 = Student("Sandy" 27)
+student4 = Student("Sandy", 27)
 
 print(Student.num_students)
 
