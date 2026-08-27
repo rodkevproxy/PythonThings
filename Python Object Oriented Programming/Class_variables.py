@@ -5,6 +5,8 @@
 class Student: 
 
     #Class variable. These are difined outside the constructor
+    #You can access these classes wiht an object, also is a good practice to access the class by the name of the class Ex. "Student.class_year"
+    class_year = 2024
 
 
 
