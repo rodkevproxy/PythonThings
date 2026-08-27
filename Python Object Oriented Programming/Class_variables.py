@@ -7,18 +7,18 @@ class Student:
     #Class variable. These are difined outside the constructor
     #You can access these classes wiht an object, also is a good practice to access the class by the name of the class Ex. "Student.class_year"
     class_year = 2024
+    num_students = 0 
 
 
 
     def __init__(self, name, age): 
         self.name = name #These are instance variables
         self.age = age 
+        Student.num_students += 1 #Here because we are modifing a class variable, we will not use "self", instead we use the name of the class, in this case Student 
 
 student1 = Student("Spongebob", 30)
 student2 = Student("Bob", 19)
-print(student1.name)
-print(student2.age)
-print(student1.class_year)
+
 
 
 
