@@ -19,6 +19,9 @@ class Student:
 student1 = Student("Spongebob", 30)
 student2 = Student("Bob", 19)
 
+print(Student.num_students)
+
+
 
 
 
