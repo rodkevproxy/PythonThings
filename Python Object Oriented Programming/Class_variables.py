@@ -18,6 +18,7 @@ student1 = Student("Spongebob", 30)
 student2 = Student("Bob", 19)
 print(student1.name)
 print(student2.age)
+print(student1.class_year)
 
 
 
