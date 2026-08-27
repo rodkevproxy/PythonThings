@@ -26,5 +26,8 @@ print(Student.num_students)
 
 print(f"My graduating class of {Student.class_year} has {Student.num_students} students")
 
-
+print(f"{student1.name}")
+print(f"{student2.name}")
+print(f"{student3.name}")
+print(f"{student4.name}")
 
