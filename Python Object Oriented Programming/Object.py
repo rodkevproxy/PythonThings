@@ -17,6 +17,7 @@ car2 = Car("GT3", 2027, "Black", True)
 
 car1.drive()
 car2.stop()
+car2.describe()
 
 
 
