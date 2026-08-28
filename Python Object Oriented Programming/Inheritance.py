@@ -16,15 +16,15 @@ class Animal:
 
 class Dog(Animal):
      def speak(sekf): 
-         print("WOOF")
+         print("WOOF! ")
 
 class Cat(Animal): 
     def speak(self):
-        print("Meow")
+        print("MEOW! ")
 
 class Mouse(Animal): 
     def speak(self):
-        print("Hi")
+        print("SQUEEK! ")
 
 dog = Dog("Dollar")
 cat = Cat("Pepe")
@@ -36,3 +36,8 @@ print(dog.name) #This is an inheritance of an attribute from the class Animal
 print(dog.is_alive)
 cat.eat()
 cat.sleep() #This is an inheritance of a method from the class Animal
+
+dog.speak()
+cat.speak()
+mouse.speak()
+
