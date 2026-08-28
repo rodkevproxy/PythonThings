@@ -27,5 +27,9 @@ dog = Dog("Dollar")
 cat = Cat("Pepe")
 mouse =Mouse("Jerry")
 
+#Now to test that we can use attributes from another classes i am goin to write the following instructions 
 
-
+print(dog.name)
+print(dog.is_alive)
+cat.eat()
+cat.sleep()
