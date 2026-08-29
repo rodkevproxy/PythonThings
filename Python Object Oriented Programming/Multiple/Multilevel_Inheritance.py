@@ -6,21 +6,21 @@
 #                           C(B) <- B(A) <- A 
 
 class Animal():
-    def __init__(self,name): #This is how you define a constructor 
+    def __init__(self, name): #This is how you define a constructor 
         self.name = name
 
     def eat(self):
-        print(f"This {self.name} is eating ")
+        print(f"{self.name} is eating ")
 
     def skeep(self): 
-        print(f"This {self.name} is sleeping ")
+        print(f"{self.name} is sleeping ")
 class Prey(Animal): #Parent class
     def flee(self):
-        print(f"This {self.name} is fleeing")
+        print(f"{self.name} is fleeing")
 
 class Predator(Animal): #Parent class
     def hunt(self):
-        print(f"This {self.name} is hunting ")
+        print(f"{self.name} is hunting ")
 
 class Rabbit(Prey):
     pass #Child class
