@@ -35,9 +35,9 @@ class Fish(Predator, Prey): #Here this is an example of multiple inheritance
 
 #Here i created the objests 
 
-rabbit = Rabbit()
-hawk = Hawk()
-fish = Fish()
+rabbit = Rabbit("Toby")
+hawk = Hawk("Tony")
+fish = Fish("Dory")
 
 fish.flee()
 
