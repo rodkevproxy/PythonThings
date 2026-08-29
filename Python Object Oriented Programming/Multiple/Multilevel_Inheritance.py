@@ -6,18 +6,19 @@
 #                           C(B) <- B(A) <- A 
 
 
-class Prey: 
+class Prey: #Parent class
+    def flee(self):
+        print("You can now flee i guess..? ")
+
+class Predator: #Parent class
     pass 
 
-class Predator: 
+class Rabbit: #Child class
     pass 
 
-class Rabbit: 
+class Hawk: #Child class
     pass 
 
-class Hawk: 
-    pass 
-
-class Fish: 
+class Fish: #Child class
     pass 
 
