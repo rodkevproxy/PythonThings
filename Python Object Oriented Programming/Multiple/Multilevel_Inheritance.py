@@ -8,17 +8,20 @@
 
 class Prey: #Parent class
     def flee(self):
-        print("You can now flee i guess..? ")
+        print("This animal is fleeing")
 
 class Predator: #Parent class
+    def hunt(self):
+        print("This animal is hunting ")
+
+class Rabbit(Prey): #Child class
+     
+
+class Hawk(Predator): #Child class
     pass 
 
-class Rabbit: #Child class
+class Fish(Predator, Prey): #Child class
     pass 
 
-class Hawk: #Child class
-    pass 
 
-class Fish: #Child class
-    pass 
 
