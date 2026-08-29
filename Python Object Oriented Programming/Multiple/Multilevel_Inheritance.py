@@ -6,14 +6,14 @@
 #                           C(B) <- B(A) <- A 
 
 class Animal():
-    def __init__(self, name): #This is how you define a constructor 
+    def __init__(self, name, lastname): #This is how you define a constructor 
         self.name = name
-
+        self.lastname = lastname
     def eat(self):
         print(f"{self.name} is eating ")
 
-    def skeep(self): 
-        print(f"{self.name} is sleeping ")
+    def sleep(self): 
+        print(f"{self.name} {self.lastname} is sleeping ")
 class Prey(Animal): #Parent class
     def flee(self):
         print(f"{self.name} is fleeing")
@@ -35,10 +35,9 @@ class Fish(Predator, Prey): #Here this is an example of multiple inheritance
 
 #Here i created the objests 
 
-rabbit = Rabbit("Toby")
-hawk = Hawk("Tony")
-fish = Fish("Dory")
+rabbit = Rabbit("Toby", "Rodas")
+hawk = Hawk("Tony", "Rodas")
+fish = Fish("Dory", "Rodas")
 
-fish.flee()
+rabbit.sleep()
 
-rabbit.eat()
