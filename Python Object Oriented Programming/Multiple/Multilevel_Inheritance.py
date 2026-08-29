@@ -14,14 +14,24 @@ class Predator: #Parent class
     def hunt(self):
         print("This animal is hunting ")
 
-class Rabbit(Prey): #Child class
+class Rabbit(Prey):
+    pass #Child class
      
 
 class Hawk(Predator): #Child class
     pass 
 
-class Fish(Predator, Prey): #Child class
+class Fish(Predator, Prey): #Here this is an example of multiple inheritance 
     pass 
+
+
+#Here i created the objests 
+
+rabbit = Rabbit()
+hawk = Hawk()
+fish = Fish()
+
+fish.flee()
 
 
 
