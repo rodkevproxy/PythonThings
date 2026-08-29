@@ -6,6 +6,9 @@
 #                           C(B) <- B(A) <- A 
 
 class Animal():
+    def __init__(self,name): #This is how you define a constructor 
+        self.name = name
+
     def eat(self):
         print("This animal is eating ")
 
@@ -38,5 +41,4 @@ fish = Fish()
 
 fish.flee()
 
-
-
+rabbit.eat()
