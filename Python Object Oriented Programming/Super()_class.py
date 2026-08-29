@@ -10,7 +10,7 @@ class Circle:
 class Square:
      def __init__(self, colour, is_filled, width):
                self.colour = colour 
-               self.is_filled = filis_filledled 
+               self.is_filled = is_filled 
                self.width = width 
 
 class Triangle:
