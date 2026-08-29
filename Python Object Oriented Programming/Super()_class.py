@@ -33,6 +33,9 @@ circle = Circle("blue", True, 5) #No keyword arguments
 Square = Square(colour="Blue", is_filled=False, width=90) #With keyword argumnets 
 
 print(circle.colour)
+print(circle.is_filled)
+print(circle.colour)
+
 
 
 
