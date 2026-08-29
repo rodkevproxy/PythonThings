@@ -10,13 +10,13 @@ class Animal():
         self.name = name
 
     def eat(self):
-        print("This animal is eating ")
+        print(f"This animal is eating ")
 
     def skeep(self): 
-        print("This animal is sleeping ")
+        print(f"This animal is sleeping ")
 class Prey(Animal): #Parent class
     def flee(self):
-        print("This animal is fleeing")
+        print(f"This animal is fleeing")
 
 class Predator(Animal): #Parent class
     def hunt(self):
