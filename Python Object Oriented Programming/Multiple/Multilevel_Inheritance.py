@@ -5,12 +5,17 @@
 # multilevel inheritance = inherit from a pareent which inherits from another parent 
 #                           C(B) <- B(A) <- A 
 
+class Animal():
+    def eat(self):
+        print("This animal is eating ")
 
-class Prey: #Parent class
+    def skeep(self): 
+        print("This animal is sleeping ")
+class Prey(Animal): #Parent class
     def flee(self):
         print("This animal is fleeing")
 
-class Predator: #Parent class
+class Predator(Animal): #Parent class
     def hunt(self):
         print("This animal is hunting ")
 
