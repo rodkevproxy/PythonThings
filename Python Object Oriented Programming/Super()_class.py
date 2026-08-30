@@ -7,7 +7,7 @@ class Shape:  #This is the super class, dont forget to setup this class into the
               self.is_filled = is_filled 
 
        def describe(self):
-              print(f"It is {self.colour} and {"filles" if self.filled == True else "Not Filled"}")
+              print(f"It is {self.colour} and {'filled' if self.is_filled else 'Not Filled'}")
               
               
 
@@ -39,6 +39,8 @@ triangle = Triangle(colour="Red", is_filled=True, width=23, height=20)
 
 
 circle.describe()
+square.describe()
+triangle.describe()
 
 
 
