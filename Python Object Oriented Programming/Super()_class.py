@@ -30,11 +30,12 @@ class Triangle(Shape):
 #Here when creating the object we have two ways to do it, both do the same, but has more focus on readability by using keyword arguments 
 circle = Circle("blue", True, 5) #No keyword arguments 
 
-Square = Square(colour="Blue", is_filled=False, width=90) #With keyword argumnets 
+square = Square(colour="Blue", is_filled=False, width=90) #With keyword argumnets 
+triangle = Triangle(colour="Red", is_filled=True, width=23, height=20) 
 
 print(circle.colour)
 print(circle.is_filled)
-print(circle.colour)
+print(triangle.height)
 
 
 
