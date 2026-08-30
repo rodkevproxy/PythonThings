@@ -17,6 +17,10 @@ class Circle(Shape):
      def __init__(self, colour, is_filled, radious):
            super().__init__(colour, is_filled)
            self.radious = radious 
+
+     def describe(self):
+            print(f"It is a circle with an area of {3.14 * self.radious * self*self.radious}cm ^2")
+            super().describe()                                  #Here we have a method overwriting situation, because we have two descibe method, one on the child and one on the parent, to use both we can extend the functionality of the child method 
           
 
 class Square(Shape):
