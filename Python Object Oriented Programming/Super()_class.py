@@ -37,6 +37,7 @@ class Triangle(Shape):
                super().__init__(colour, is_filled)
                self.width = width 
                self.height = height 
+               
      def describe(self):
             print(f"It is a triangle with an area of {self.width * self.height / 2}")
             super().describe()
