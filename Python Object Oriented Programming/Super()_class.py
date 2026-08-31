@@ -45,12 +45,8 @@ class Triangle(Shape):
 #Here when creating the object we have two ways to do it, both do the same, but has more focus on readability by using keyword arguments 
 circle = Circle("blue", True, 5) #No keyword arguments 
 
-square = Square(colour="Blue", is_filled=False, width=90) #With keyword argumnets 
-triangle = Triangle(colour="Red", is_filled=True, width=23, height=20) 
-
-
-circle.describe()
-
+square = Square(colour="Blue", is_filled=False, width=22)
+#
 
 #Some peding things will be addressed tomorrow 
 #ok now is tomorrow so i will continiue in a moment 
