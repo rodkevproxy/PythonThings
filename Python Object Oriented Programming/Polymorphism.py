@@ -20,4 +20,4 @@ class Square(Shape):
 class Triangle(Shape):
     pass
 
-square = Square()
+square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape" 
