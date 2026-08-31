@@ -8,9 +8,11 @@
 
 #On this file we will be more focused on the first one 
 
+
+from abc import ABC, abstractmethod
 class Shape():
-    
-    def area(self):
+    @abstractmethod #This is called a decirator
+    def area(self): #This is an abstract method 
         pass 
 
 class Circle(Shape): 
