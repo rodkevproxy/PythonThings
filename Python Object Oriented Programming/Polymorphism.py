@@ -9,7 +9,9 @@
 #On this file we will be more focused on the first one 
 
 class Shape():
-    pass 
+    
+    def area(self):
+        pass 
 
 class Circle(Shape): 
     pass 
@@ -20,4 +22,6 @@ class Square(Shape):
 class Triangle(Shape):
     pass
 
-square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape" 
+square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
+
+shapes = [Circle(), Square(), Triangle()]
