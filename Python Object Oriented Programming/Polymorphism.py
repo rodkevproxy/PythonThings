@@ -24,7 +24,8 @@ class Square(Shape):
         self.area = area 
 
 class Triangle(Shape):
-    def __init__(self, )
+    def __init__(self, ):
+        pass #Just for now 
 
 square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
 
