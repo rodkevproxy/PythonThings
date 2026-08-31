@@ -16,13 +16,15 @@ class Shape():
         pass 
 
 class Circle(Shape): 
-    pass 
+    def __init__(self, radious):
+        self.radious = radious 
 
 class Square(Shape):
-    pass 
+    def __init__(self, area):
+        self.area = area 
 
 class Triangle(Shape):
-    pass
+    def __init__(self, )
 
 square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
 
