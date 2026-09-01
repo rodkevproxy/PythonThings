@@ -13,7 +13,7 @@ from abc import ABC, abstractmethod
 class Shape():
     @abstractmethod #This is called a decirator
     def area(self): #This is an abstract method 
-        pass 
+        
 
 class Circle(Shape): 
     def __init__(self, radious):
@@ -24,8 +24,9 @@ class Square(Shape):
         self.area = area 
 
 class Triangle(Shape):
-    def __init__(self, ):
-        pass #Just for now 
+    def __init__(self, base, height):
+        self.base = base 
+        self.height = height
 
 square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
 
