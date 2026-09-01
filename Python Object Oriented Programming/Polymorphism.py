@@ -41,6 +41,5 @@ class Triangle(Shape):
 shapes = [Circle(4), Square(5), Triangle(7, 6)]
 
 for item in shapes:
-     print(item)
-
+     print(item.area())
     
