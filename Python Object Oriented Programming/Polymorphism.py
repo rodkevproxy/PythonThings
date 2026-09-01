@@ -42,4 +42,6 @@ shapes = [Circle(4), Square(5), Triangle(7, 6)]
 
 for item in shapes:
      print(item.area())
-    
+
+
+#Today i submitted a long email to valarian which was quite good 
