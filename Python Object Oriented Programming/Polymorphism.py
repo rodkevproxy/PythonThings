@@ -37,9 +37,7 @@ class Triangle(Shape):
 
     def area(self): 
         return self.base * self.height * 0.5 
-
-square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
-
+ 
 shapes = [Circle(4), Square(5), Triangle(7, 6)]
 
 for shape in shapes: 
