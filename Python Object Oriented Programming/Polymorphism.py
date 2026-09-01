@@ -19,15 +19,29 @@ class Circle(Shape):
     def __init__(self, radious):
         self.radious = radious 
 
+  def area(self):
+        return 3.14 * self.radious ** 2 
+
 class Square(Shape):
-    def __init__(self, area):
-        self.area = area 
+    def __init__(self, side):
+        self.side = side 
+
+    def area(self):
+        return self.side ** 2 
 
 class Triangle(Shape):
     def __init__(self, base, height):
         self.base = base 
         self.height = height
 
+    def area(self): 
+        return self.base * self.height * 0.5 
+
 square = Square() #So here our "square" identifies as a "Square" and science "Square" inheritates from "Shape" is also considered a "Shape", so those are two possible forms for square 
 
-shapes = [Circle(), Square(), Triangle()]
+shapes = [Circle(4), Square(5), Triangle(7, 6)]
+
+for shape in shapes: 
+    print(shape.area())
+
+    
