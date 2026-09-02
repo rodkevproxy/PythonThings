@@ -37,11 +37,20 @@ class Triangle(Shape):
 
     def area(self): 
         return self.base * self.height * 0.5 
+
+class Pizza: 
+    def __init__(self, topping, radious): 
+        self.topping = topping
+        self.radious = radious 
+
+    def area(self):
+         
+
  
-shapes = [Circle(4), Square(5), Triangle(7, 6)]
+shapes = [Circle(4), Square(5), Triangle(7, 6) Pizza("peperoni", 15)]
 
 for item in shapes:
-     print(f"{item.area()}cm")
+     print(f"{item.area()}cm²")
 
 
 #Today i submitted a long email to valarian which was quite good
