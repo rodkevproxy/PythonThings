@@ -41,12 +41,8 @@ class Triangle(Shape):
 class Pizza(Circle): 
     def __init__(self, topping, radious): 
         super().__init__(radious)
-        self.topping = topping
-        self.radious = radious 
-
-    
-         
-
+        self.topping = topping      
+     
  
 shapes = [Circle(4), Square(5), Triangle(7, 6) Pizza("peperoni", 15)]
 
