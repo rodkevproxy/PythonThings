@@ -38,12 +38,13 @@ class Triangle(Shape):
     def area(self): 
         return self.base * self.height * 0.5 
 
-class Pizza: 
+class Pizza(Circle): 
     def __init__(self, topping, radious): 
+        super().__init__(radious)
         self.topping = topping
         self.radious = radious 
 
-    def area(self):
+    
          
 
  
