@@ -49,7 +49,6 @@ def shipping_lable(*args, **kwargs):    # Always make sure that the *args are po
     print(f"{kwargs.get('Street')} {kwargs.get('House_Number')} {kwargs.get('Instructions')}")
     
 
-<<<<<<< HEAD
 shipping_lable("Mr", "Kevin Rodas", 
                Postcode="N43NY", 
                Street="Coleridge Road", 
@@ -61,62 +60,6 @@ shipping_lable("Mr", "Kevin Rodas",
 
 
 
-=======
-shipping_lable("Mr", "Default Name",
-               Section="RailNetwork",
-               Area="Hammersmith London",
-               Is_It_IT="No",
-               Finance="No",
-               Rail_Worker="Yes",
-               Rail_Not_Worker="No",)
-
-def shipping_lable_non_uk (*args, **kwargs):
-    for arg in args:
-        print(f"{arg}", end=" ")
-
-    print()
-
-
-    print(f"{kwargs.get('Section')} {kwargs.get('Area')}{kwargs.get('Is_It_IT')}")
-
-
-shipping_lable_non_uk("Mr", "Default Name",
-                         Section="Tbc",
-                         Area="Tbc",
-                         Is_It_IT="No",
-                         Finance="No",
-                         Rail_Worker="Yes",
-                         Rail_Not_Worker="No",)
-
-
-address_south_america("Co", "Default City",
-                           City="Default",
-                           Company="Default_Preseted by the client",
-                           Status="To Be Confirmed",
-                           Type="Depending on the sender letter",)
-
-def address_south_america(*args, **kwargs):
-    for arg in args: 
-        print(f"{arg}", end=" ")
-        print()
-
-        print(f"{kwargs.get('Company')} : {kwargs.get('Status')} : {kwargs.get('City')} : {kwargs.get('Type')}")
-
-
-friends_names_uk("Mr", "Miss", "And everyting else ",
-                 FirstOne="Jossua",
-                 SecondOne="Not Jossua",
-                 ThirdOne="Jefrey",
-                 FourthOne="Ali",
-                 FifthOne="Does Not Exist Yet")
-
-def friends_names_uk (*args, **kwarg):
-    for arg in args:
-        print(arg, end=" ")
-        print()
-
-        print(f"{kwarg.get('FirstOne')}")
->>>>>>> 396837ba3166cf624c8d9d0070721422b61d05ff
 
 
 
