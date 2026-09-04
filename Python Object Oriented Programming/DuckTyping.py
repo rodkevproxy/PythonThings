@@ -14,7 +14,11 @@ class Cat(Animal):
     def speak(self):
         print("Meow")
 
-animals = [Dog(), Cat()]
+class Car: 
+    def speak(self): 
+        print("Honk!")
+
+animals = [Dog(), Cat(), Car()]
 
 for animal in animals: 
     animal.speak()
