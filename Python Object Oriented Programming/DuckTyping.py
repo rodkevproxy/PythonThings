@@ -15,6 +15,9 @@ class Cat(Animal):
         print("Meow")
 
 class Car: 
+
+    alive = True
+
     def speak(self): 
         print("Honk!")
 
@@ -22,6 +25,7 @@ animals = [Dog(), Cat(), Car()]
 
 for animal in animals: 
     animal.speak()
+    print(animal.alive)
 
 
 
