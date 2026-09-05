@@ -3,4 +3,5 @@
 
 # Instance Methods = Best for operations on instances of the class (objects)
 # Static Methods = Best for utility functions that do not need access to class data 
+# i have to continiue with this today 
 
