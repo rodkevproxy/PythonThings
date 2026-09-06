@@ -5,3 +5,10 @@
 # Static Methods = Best for utility functions that do not need access to class data 
 # i have to continiue with this today 
 
+class Employee: 
+    def __init__ (self, name, position):
+        self.name = name 
+        self.position = position 
+
+    def get_info(self):
+        
