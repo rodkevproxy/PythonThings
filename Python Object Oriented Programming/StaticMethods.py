@@ -14,4 +14,8 @@ class Employee:
     def get_info(self):
         return f"{self.name} = {self.position}"
     
+    #Static method decorator 
 
+    @staticmethod
+    def is_valid_position(position):
+        
