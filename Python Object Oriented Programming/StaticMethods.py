@@ -10,5 +10,8 @@ class Employee:
         self.name = name 
         self.position = position 
 
+    #Example of instance method
     def get_info(self):
-        
+        return f"{self.name} = {self.position}"
+    
+
