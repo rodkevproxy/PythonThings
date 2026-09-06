@@ -18,4 +18,9 @@ class Employee:
 
     @staticmethod
     def is_valid_position(position):
+        valid_positions = ["Manager", "Cashier", "Cook", "Janitor"]
+        return position in valid_position
+
+    
+
         
