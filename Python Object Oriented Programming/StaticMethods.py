@@ -10,7 +10,7 @@ class Employee:
         self.name = name 
         self.position = position 
 
-    #Example of instance method
+    #Example of instance method 
     def get_info(self):
         return f"{self.name} = {self.position}"
     
@@ -19,8 +19,8 @@ class Employee:
     @staticmethod
     def is_valid_position(position):
         valid_positions = ["Manager", "Cashier", "Cook", "Janitor"]
-        return position in valid_position
+        return position in valid_positions
 
-    
-
-        
+#Example of accessing info using instance method 
+employee1 = Employee("Me", "Cashier")
+print(employee1.get_info())
