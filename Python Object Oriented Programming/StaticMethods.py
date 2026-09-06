@@ -23,4 +23,7 @@ class Employee:
 
 #Example of accessing info using instance method 
 employee1 = Employee("Me", "Cashier")
+employee2 = Employee("MeAgain", "Manager")
 print(employee1.get_info())
+print(employee2.get_info())
+
