@@ -20,7 +20,17 @@ class Student: #
     def get_count(cls): 
         return f"The total count is {cls.count}"
 
+
+    @classmethod
+    def avrg_gpa(cls): 
+        if cls.count == 0: 
+            return 0 
+        else: 
+            return f"{cls.total_gpa / cls.count}"
+
 student1 = Student("Me", 4)
 student2 = Student("Not Me", 3)
 
 print(Student.get_count())
+print(Student.avrg_gpa())
+
