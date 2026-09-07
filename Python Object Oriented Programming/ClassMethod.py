@@ -17,4 +17,7 @@ class Student:
     def get_count(cls): 
         return f"The total count is {cls.count}"
 
+student1 = Student("Me", 4)
+student2 = Student("Not Me", 3)
+
 print(Student.get_count())
