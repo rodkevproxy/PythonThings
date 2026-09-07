@@ -1,5 +1,9 @@
 #Class Methods = Allow operations related to the class itself 
                 #Take (cls) as the first parameter, which represents the class itself
+#Instance Methods: Best for operations on instances if the class (object)
+# Static Methods: Best for utikity functions that do not need access to class data 
+#Class Methods: Best for class-level data or require access to the class itself
+
 
 class Student: #
 
