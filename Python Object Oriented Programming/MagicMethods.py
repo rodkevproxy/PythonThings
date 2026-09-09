@@ -29,8 +29,12 @@ class Book:
     def __getitem__(self, key):
         if key == "Author":
             return self.author
-        if key == "Title":
+        elif key == "Title":
             return self.title
+        elif key == self.num_pages: 
+            return self.num_pages
+        else: 
+            return f"The {key} was not found"
 
         
         
