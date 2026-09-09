@@ -15,6 +15,8 @@ class Book:
         return self.title == other.title and self.author == other.author
     def __lt__(self, other): #Basically this allow python to compare two objects using the "<"  symbol 
         return self.num_pages < other.num_pages
+    def __lt__(self, other): #Basically this allow python to compare two objects using the "<"  symbol 
+        return self.num_pages > other.num_pages
 
 
 book1 = Book("neetCode", "The Neet Code Guy", 330) #Lets pretend i did create like 2 other objects similar to this 
