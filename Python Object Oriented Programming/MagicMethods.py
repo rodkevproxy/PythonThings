@@ -22,7 +22,7 @@ class Book:
         return self.num_pages > other.num_pages
 
     def __add__(self, other): #This funtion will allow the addition between the number of pages of each object ("Book")
-        return self.num_pages + other.num_pages
+        return f"{self.num_pages} + {other.num_pages} pages"
 
 
 book1 = Book("neetCode", "The Neet Code Guy", 330) #Lets pretend i did create like 2 other objects similar to this 
