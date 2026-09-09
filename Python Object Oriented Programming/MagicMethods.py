@@ -47,4 +47,5 @@ print(book1 == book2)
 print(book1 + book2)
 print("oddysey" in book2)
 print(book1["Author"])
+print(book1["Title"])
 
