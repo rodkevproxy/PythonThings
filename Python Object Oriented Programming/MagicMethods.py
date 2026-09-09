@@ -27,9 +27,12 @@ class Book:
     def __contains__(self, keyword):
         return keyword in self.title or self.author 
     def __getitem__(self, key):
-        if key == "author":
+        if key == "Author":
             return self.author
-        if key 
+        if key == "Title":
+            return self.title
+
+        
         
 
 
