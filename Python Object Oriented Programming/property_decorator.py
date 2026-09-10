@@ -28,8 +28,16 @@ class Rectangle:
             self._height = new_height
         else: 
             print("Height must be greater than 0")
-            
 
+    @width.deleter
+    def width(self):
+        del self._width
+        print("Width has been deleted ")
+
+    @height.deleter
+    def height(self):
+        del self._height
+        print("Height has been deleted ")
 
 rectangle = Rectangle(3, 4)
 
