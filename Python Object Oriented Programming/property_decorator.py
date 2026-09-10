@@ -32,6 +32,8 @@ class Rectangle:
 
 rectangle = Rectangle(3, 4)
 
+rectangle.width = 5
+
 print(rectangle.width)
 print(rectangle.height)
 
