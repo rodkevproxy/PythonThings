@@ -28,11 +28,12 @@ class Rectangle:
             self._height = new_height
         else: 
             print("Height must be greater than 0")
+            
 
 
 rectangle = Rectangle(3, 4)
 
-rectangle.width = 0
+rectangle.width = 5
 
 print(rectangle.width)
 print(rectangle.height)
