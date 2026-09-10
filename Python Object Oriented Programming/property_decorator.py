@@ -4,7 +4,7 @@
 
 class Rectangle:
     def __init__(self, width, height): 
-        self._width = self.width  #To make attributes private or meant to be protected, prefix the attributes with "_"
+        self._width = width  #To make attributes private or meant to be protected, prefix the attributes with "_"
         self._height = height
     @property
     def width(self): 
