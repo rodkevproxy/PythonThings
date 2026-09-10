@@ -2,3 +2,16 @@
 #               Benefit: Add additional logic when read, write, or delete attributes 
 #               Gives you getter, setter and deleter methods 
 
+class Rectangle:
+    def __init__(self, width, height): 
+        self.width = self.width
+        self.height = height
+
+    rectangle = Rectangle(3, 4)
+
+    print(rectangle.width)
+    print(rectangle.height)
+
+    #
+    
+ 
