@@ -45,6 +45,8 @@ rectangle.width = 5
 
 print(rectangle.width)
 print(rectangle.height)
+del rectangle.height
+del rectangle.width
 
     
 
