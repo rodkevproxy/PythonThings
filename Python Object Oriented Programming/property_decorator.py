@@ -30,10 +30,10 @@ class Rectangle:
             print("Height must be greater than 0")
 
 
-    #rectangle = Rectangle(3, 4)
+rectangle = Rectangle(3, 4)
 
-    print(rectangle.width)
-    print(rectangle.height)
+print(rectangle.width)
+print(rectangle.height)
 
     
 
