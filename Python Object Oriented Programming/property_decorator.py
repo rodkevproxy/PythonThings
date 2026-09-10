@@ -15,7 +15,7 @@ class Rectangle:
         return f"{self._height:.1f}cm"
 
     @width.setter 
-    def new_width(self, new_width): 
+    def width(self, new_width): 
         if new_width > 0: 
             self._width = new_width
         else: 
@@ -23,7 +23,7 @@ class Rectangle:
 
     
     @height.setter 
-    def new_heigh(self, new_height): 
+    def heigh(self, new_height): 
         if new_height > 0: 
             self._height = new_height
         else: 
@@ -32,7 +32,7 @@ class Rectangle:
 
 rectangle = Rectangle(3, 4)
 
-rectangle.width = 5
+rectangle.width = 0
 
 print(rectangle.width)
 print(rectangle.height)
