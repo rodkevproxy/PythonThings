@@ -19,8 +19,8 @@ def add_fudge(func):
 
 @add_fudge
 @add_topping
-def get_ice_cream(): 
-    print("Here is your ice cream")
+def get_ice_cream(flavor): 
+    print(f"Here is your {flavor} ice cream")
 
 get_ice_cream()
 
