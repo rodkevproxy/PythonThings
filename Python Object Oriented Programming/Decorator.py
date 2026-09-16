@@ -4,14 +4,14 @@
 
 #Here is how to create a decorator 
 def add_topping(func): 
-    def wrapper():
+    def wrapper(args, kwars):
         print("You added sprinkles")
         func()
     return wrapper 
 
 
 def add_fudge(func): 
-    def wrapper():  #This wrapper avoids the function getting called when we apply the decorator 
+    def wrapper(args, kwargs):  #This wrapper avoids the function getting called when we apply the decorator 
         print("You added fudge")
         func()
     return wrapper
