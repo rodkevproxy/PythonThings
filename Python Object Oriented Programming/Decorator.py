@@ -11,7 +11,7 @@ def add_topping(func):
 
 
 def add_fudge(func): 
-    def wrapper(): 
+    def wrapper():  
         print("You added fudge")
         func()
     return wrapper
