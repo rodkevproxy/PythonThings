@@ -10,6 +10,14 @@ def add_topping(func):
     return wrapper 
 
 
+def add_fudge(func): 
+    def wrapper(): 
+        print("You added fudge")
+        func()
+    return wrapper
+
+
+@add_fudge
 @add_topping
 def get_ice_cream(): 
     print("Here is your ice cream")
