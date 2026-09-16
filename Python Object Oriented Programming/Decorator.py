@@ -11,7 +11,7 @@ def add_topping(func):
 
 
 def add_fudge(func): 
-    def wrapper():  
+    def wrapper():  #This wrapper avoids the function getting called when we apply the decorator 
         print("You added fudge")
         func()
     return wrapper
