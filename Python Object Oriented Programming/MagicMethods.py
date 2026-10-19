@@ -18,7 +18,7 @@ class Book:
     def __lt__(self, other): #Basically this allow python to compare two objects using the "<"  symbol 
         return self.num_pages < other.num_pages
     
-    def __lt__(self, other): #Basically this allow python to compare two objects using the "<"  symbol 
+    def __lt__(self, other): 
         return self.num_pages > other.num_pages
 
     def __add__(self, other): #This funtion will allow the addition between the number of pages of each object ("Book")
