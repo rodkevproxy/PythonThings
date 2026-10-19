@@ -9,7 +9,7 @@ class Book:
         self.author = author 
         self.num_pages = num_pages
 
-    def __str__(self):  #This method will change the message given when printing an object 
+    def __str__(self):  #This method will change the message given when printing an object e.g print(Book3)
         return f"'{self.title}' by {self.author}"
     
     def __eq__(self, other): #This method will return if 2 "books in this case" are equal
