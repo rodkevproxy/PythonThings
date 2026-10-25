@@ -24,7 +24,6 @@ def get_ice_cream(flavor):
 
 get_ice_cream("Vanilla")
 
-# Today i am goign with this point 
 
 
 
