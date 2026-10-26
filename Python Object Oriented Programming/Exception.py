@@ -7,5 +7,3 @@ try:
     #Try some code 
 except Exception: 
     #Handle an Exception 
-finally: 
-    # Do some clean up 
