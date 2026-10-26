@@ -9,6 +9,7 @@ def add_sprinkles (func):
         func()
     return wrapper
 
+#Here we add a wrapper function so we dont call the function when we apply the decorator 
 def add_fudge(func): 
     def wrapper(): 
         print("You add fudge")
