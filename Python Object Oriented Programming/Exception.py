@@ -3,3 +3,6 @@
 #                1. try,2. Except, 3. finally 
 
 
+try: 
+    #Try some code 
+    
