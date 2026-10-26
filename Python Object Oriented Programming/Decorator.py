@@ -15,7 +15,7 @@ def add_fudge(func):
         print("You add fudge")
         func()
     return wrapper()
-
+#Main function of a decorator is to extend a function 
 
 
 
