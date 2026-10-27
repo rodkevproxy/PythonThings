@@ -2,6 +2,10 @@
 #                (zerodivisionError, TypeError, ValueError)
 #                1. try,2. Except, 3. finally 
 
+#Example
+number = int(input("Enter a number"))
+
+
 
 try: 
     #Try some code 
@@ -11,3 +15,4 @@ except Exception:
 
 finally: 
     # Do some clean up 
+
