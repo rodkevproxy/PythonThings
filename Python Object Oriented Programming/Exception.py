@@ -2,17 +2,10 @@
 #                (zerodivisionError, TypeError, ValueError)
 #                1. try,2. Except, 3. finally 
 
-#Example
+#Example of dangerous code 
 number = int(input("Enter a number"))
+print (1 / number)
 
 
 
-try: 
-    #Try some code 
-
-except Exception: 
-    #Handle an Exception 
-
-finally: 
-    # Do some clean up 
 
