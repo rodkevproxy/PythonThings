@@ -4,7 +4,10 @@
 
 #Example of dangerous code 
 number = int(input("Enter a number"))
-print (1 / number)
+print (1 / number) # This will give us a valuerror 
+
+
+
 
 
 
